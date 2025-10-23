@@ -1,0 +1,24 @@
+Test Case: Verify that a user can log in and buy a product on the Automation Test Store
+
+Description:
+This test case verifies that a registered user can successfully log in to the Automation Test Store, select a product, add it to the shopping cart, proceed to checkout, and confirm the order. 
+It ensures that the buying process works correctly end-to-end.
+
+Steps to Automate:
+1. Open the browser and navigate to https://automationteststore.com/
+2. Click on "Login or register"
+3. Enter a valid login name and password
+4. Click the "Login" button
+5. Verify that the "My Account" page is displayed
+6. Navigate to the home page
+7. Select a featured product
+8. Click the "Add to Cart" button
+9. Open the cart and proceed to checkout
+10. Confirm the order
+11. Verify that the success message “Your Order Has Been Processed!” appears
+
+Expected Result:
+The user is able to log in successfully, complete the checkout process, and see the order confirmation message.
+
+Authors:
+This test case is part of a group project by Adilet Tobakabyla and Yasfirbek Rozmetov.
