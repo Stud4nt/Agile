@@ -1,0 +1,39 @@
+2025-11-27T13:05:02Z [browserstack_sdk.__init__][INFO] - SDK run started with id: 86cf5bfd-41d8-455e-bcbc-76d611633c45
+2025-11-27T13:05:02Z [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-11-27T13:05:07Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+testCases                                                                     
+==============================================================================
+testCases.Test :: Sign Up Test on Automation Test Store                       
+==============================================================================
+2025-11-27T13:05:07Z [browserstack_sdk.__init__][INFO] - Completed setup!
+2025-11-27T13:05:08Z [browserstack_sdk.__init__][ERROR] - Unable to launch BrowserStack session. Error - Message: Automate testing time expired.
+
+Sign Up Test :: Verify that a new user can register successfully      | FAIL |
+Parent suite setup failed:
+KeyError: 'sessionId'
+------------------------------------------------------------------------------
+Log In Test :: Verify that the same user can log in from a new ses... | FAIL |
+Parent suite setup failed:
+KeyError: 'sessionId'
+------------------------------------------------------------------------------
+Log Out Test :: Verify that user can log out successfully from a n... | FAIL |
+Parent suite setup failed:
+KeyError: 'sessionId'
+------------------------------------------------------------------------------
+Buy Product Test :: Verify that user can log in and buy a product     | FAIL |
+Parent suite setup failed:
+KeyError: 'sessionId'
+------------------------------------------------------------------------------
+testCases.Test :: Sign Up Test on Automation Test Store               | FAIL |
+Suite setup failed:
+KeyError: 'sessionId'
+
+4 tests, 0 passed, 4 failed
+==============================================================================
+testCases                                                             | FAIL |
+4 tests, 0 passed, 4 failed
+==============================================================================
+Output:  C:\Users\Адилет\IdeaProjects\PythonProject\pabot_results\1\output.xml
+2025-11-27T13:05:10Z [browserstack_sdk.__init__][INFO] - Handling session close
+2025-11-27T13:05:10Z [browserstack_sdk.__init__][INFO] - All done!
