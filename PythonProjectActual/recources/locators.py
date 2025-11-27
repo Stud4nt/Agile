@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Registration page locators
 LOGIN_OR_REGISTER_BTN = "//a[text()='Login or register']"
 CONTINUE_BTN = "//button[@title='Continue']"
@@ -26,4 +27,34 @@ ADD_TO_CART_BTN = "xpath=//a[contains(@class,'cart') and normalize-space(text())
 CART_LINK = "xpath=//a[@title='View Cart']"
 CHECKOUT_BTN = "xpath=//a[@id='cart_checkout1']"
 CONFIRM_ORDER_BTN = "xpath=//button[@id='checkout_btn']"
+=======
+# Registration page locators
+LOGIN_OR_REGISTER_BTN = "//a[text()='Login or register']"
+CONTINUE_BTN = "//button[@title='Continue']"
+FIRSTNAME_INPUT = "id=AccountFrm_firstname"
+LASTNAME_INPUT = "id=AccountFrm_lastname"
+EMAIL_INPUT = "id=AccountFrm_email"
+ADDRESS_INPUT = "id=AccountFrm_address_1"
+CITY_INPUT = "id=AccountFrm_city"
+REGION_SELECT = "id=AccountFrm_zone_id"
+ZIP_INPUT = "id=AccountFrm_postcode"
+COUNTRY_SELECT = "id=AccountFrm_country_id"
+LOGIN_NAME_INPUT = "id=AccountFrm_loginname"
+PASSWORD_INPUT = "id=AccountFrm_password"
+CONFIRM_INPUT = "id=AccountFrm_confirm"
+PRIVACY_CHECKBOX = "id=AccountFrm_agree"
+CONTINUE_SUBMIT = "//button[@title='Continue']"
+LOGIN_PAGE_BUTTON = "//button[@title='Login']"
+# Login form locators
+LOGIN_EMAIL_INPUT = "id=loginFrm_loginname"
+LOGIN_PASSWORD_INPUT = "id=loginFrm_password"
+LOGIN_SUBMIT_BTN = "xpath=//button[@title='Login']"
+LOGOUT_BTN = "//a[text()='Logoff']"
+# Product page locators
+HOME_FEATURED_PRODUCT = "xpath=(//div[@class='thumbnail'])[1]"
+ADD_TO_CART_BTN = "xpath=//a[contains(@class,'cart') and normalize-space(text())='Add to Cart']"
+CART_LINK = "xpath=//a[@title='View Cart']"
+CHECKOUT_BTN = "xpath=//a[@id='cart_checkout1']"
+CONFIRM_ORDER_BTN = "xpath=//button[@id='checkout_btn']"
+>>>>>>> e2b6c2525be5ba9850486f3cf925cb606314ffaa
 ORDER_SUCCESS_MSG = "xpath=//span[contains(text(),'Your Order Has Been Processed!')]"
